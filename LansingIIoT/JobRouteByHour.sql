@@ -6,5 +6,7 @@
     [LocalDate] DATE NULL, 
     [QuantityComplete] FLOAT NULL, 
     [Comments] NVARCHAR(1000) NULL, 
-    CONSTRAINT [FK_JobRouteByHour_JobRoute] FOREIGN KEY ([JobRouteId]) REFERENCES [JobRoute]([Id])
+    [ReasonCodeId] INT NULL, 
+    CONSTRAINT [FK_JobRouteByHour_JobRoute] FOREIGN KEY ([JobRouteId]) REFERENCES [JobRoute]([Id]), 
+    CONSTRAINT [FK_JobRouteByHour_DaybyHourCode] FOREIGN KEY ([ReasonCodeId]) REFERENCES [DaybyHourCode]([Id])
 )

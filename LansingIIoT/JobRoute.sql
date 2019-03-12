@@ -2,7 +2,7 @@
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [JobId] INT NOT NULL, 
-    [OperationNo] NUMERIC(10) NOT NULL, 
+    [OperationNo] FLOAT NOT NULL, 
     [OperationQuantity] FLOAT NULL, 
     [WorkCenterId] INT NULL, 
     [DueDate] DATETIME NULL, 
