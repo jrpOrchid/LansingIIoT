@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[JobType]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [JobType] NVARCHAR(200) NOT NULL, 
+    [JobTypeCode] NVARCHAR(10) NULL
+)
