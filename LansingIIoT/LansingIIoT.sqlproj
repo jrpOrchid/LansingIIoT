@@ -73,6 +73,7 @@
     <Build Include="JobRouteScrap.sql" />
     <Build Include="ScrapCode.sql" />
     <Build Include="DaybyHourCode.sql" />
+    <Build Include="Employee.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="LansingIIoT.refactorlog" />
