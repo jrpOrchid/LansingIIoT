@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[ScheduleLoss]
+﻿CREATE TABLE [dbo].[SiteScheduleLoss]
 (
 	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [Description] NVARCHAR(1000) NOT NULL, 

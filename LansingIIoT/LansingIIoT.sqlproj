@@ -58,31 +58,36 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Views" />
+    <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Job.sql" />
-    <Build Include="Item.sql" />
-    <Build Include="JobRoute.sql" />
-    <Build Include="WorkCenter.sql" />
-    <Build Include="JobType.sql" />
-    <Build Include="UnitOfMeasure.sql" />
-    <Build Include="ItemFamily.sql" />
-    <Build Include="Site.sql" />
-    <Build Include="JobRouteByHour.sql" />
-    <Build Include="JobRouteScrap.sql" />
-    <Build Include="ScrapCode.sql" />
-    <Build Include="DaybyHourCode.sql" />
-    <Build Include="Employee.sql" />
-    <Build Include="Shift.sql" />
-    <Build Include="WorkCenterShift.sql" />
-    <Build Include="PlannedProductionTime.sql" />
-    <Build Include="ScheduleLoss.sql" />
-    <Build Include="SiteOptions.sql" />
-    <Build Include="AssetTimeLoss.sql" />
-    <Build Include="AvailabilityLossReason.sql" />
-    <Build Include="Asset.sql" />
+    <Build Include="Tables\ActualProduction.sql" />
+    <Build Include="Tables\Asset.sql" />
+    <Build Include="Tables\AssetPlannedProductionTime.sql" />
+    <Build Include="Tables\AssetTimeLoss.sql" />
+    <Build Include="Tables\AvailabilityLossReason.sql" />
+    <Build Include="Tables\DaybyHourCode.sql" />
+    <Build Include="Tables\Employee.sql" />
+    <Build Include="Tables\Item.sql" />
+    <Build Include="Tables\ItemFamily.sql" />
+    <Build Include="Tables\Job.sql" />
+    <Build Include="Views\viewAssettOEEByDay.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="LansingIIoT.refactorlog" />
+    <RefactorLog Include="Tables\LansingIIoT.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\JobRoute.sql" />
+    <Build Include="Tables\JobRouteByHour.sql" />
+    <Build Include="Tables\JobRouteScrap.sql" />
+    <Build Include="Tables\JobType.sql" />
+    <Build Include="Tables\ScrapCode.sql" />
+    <Build Include="Tables\Shift.sql" />
+    <Build Include="Tables\Site.sql" />
+    <Build Include="Tables\SiteScheduleLoss.sql" />
+    <Build Include="Tables\UnitOfMeasure.sql" />
+    <Build Include="Tables\WorkCenter.sql" />
+    <Build Include="Tables\WorkCenterShift.sql" />
   </ItemGroup>
 </Project>
