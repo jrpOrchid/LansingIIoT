@@ -4,6 +4,7 @@
     [AssetNumber] NVARCHAR(50) NOT NULL, 
     [AssetName] NVARCHAR(1000) NULL, 
     [WorkCenterId] INT NULL, 
+    [IPAddress] NVARCHAR(50) NULL, 
     CONSTRAINT [FK_Asset_WorkCenter] FOREIGN KEY ([WorkCenterId]) REFERENCES [WorkCenter]([Id])
 )
 

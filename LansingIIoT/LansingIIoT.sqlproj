@@ -60,6 +60,7 @@
     <Folder Include="Properties" />
     <Folder Include="Views" />
     <Folder Include="Tables" />
+    <Folder Include="Initalize" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\ActualProduction.sql" />
@@ -73,6 +74,9 @@
     <Build Include="Tables\ItemFamily.sql" />
     <Build Include="Tables\Job.sql" />
     <Build Include="Views\viewAssettOEEByDay.sql" />
+    <Build Include="Tables\AssetTemplates.sql" />
+    <Build Include="Tables\EmployeeWorkCenters.sql" />
+    <Build Include="Tables\WorkCenterDxHCodes.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Tables\LansingIIoT.refactorlog" />
