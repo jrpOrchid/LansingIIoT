@@ -77,4 +77,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="WorkCenterGroupId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="094f8228-5b53-4ddc-beb0-3d0de32a03a8" ChangeDateTime="03/28/2019 11:12:07">
+    <Property Name="ElementName" Value="[dbo].[AssetWorkCenter].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[AssetWorkCenter]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AssetId" />
+  </Operation>
 </Operations>

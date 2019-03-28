@@ -88,6 +88,8 @@
     <Build Include="DaybyHour\Operation.sql" />
     <Build Include="DaybyHour\WorkCenterGroup.sql" />
     <Build Include="DaybyHour\WorkCenterGroupWorkCenter.sql" />
+    <Build Include="DaybyHour\Asset.sql" />
+    <Build Include="DaybyHour\AssetWorkCenter.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Tables\LansingIIoT.refactorlog" />

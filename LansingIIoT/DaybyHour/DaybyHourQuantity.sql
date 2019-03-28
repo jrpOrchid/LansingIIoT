@@ -5,6 +5,8 @@
     [QuantityComplete] INT NULL, 
     [JobNo] NVARCHAR(50) NULL, 
     [OperationId] INT NULL, 
+    [AssetId] INT NULL, 
     CONSTRAINT [FK_DaybyHourQuantity_DaybyHour] FOREIGN KEY ([DaybyHourId]) REFERENCES [dbh].[DaybyHour]([Id]), 
-    CONSTRAINT [FK_DaybyHourQuantity_Operation] FOREIGN KEY ([OperationId]) REFERENCES [dbh].[Operation]([Id])
+    CONSTRAINT [FK_DaybyHourQuantity_Operation] FOREIGN KEY ([OperationId]) REFERENCES [dbh].[Operation]([Id]), 
+    CONSTRAINT [FK_DaybyHourQuantity_Asset] FOREIGN KEY ([AssetId]) REFERENCES [dbh].[Asset]([Id])
 )
