@@ -9,6 +9,7 @@
     [MissedGoalReasonId] INT NULL, 
     [QtyFailedReasonId] INT NULL, 
     [Comments] NVARCHAR(1000) NULL, 
+    [TimeSpent] INT NULL, 
     CONSTRAINT [FK_DaybyHour_WorkCenter] FOREIGN KEY ([WorkCenterId]) REFERENCES [dbh].[WorkCenter]([Id]), 
     CONSTRAINT [FK_DaybyHour_MissedGoalReasonCode] FOREIGN KEY ([MissedGoalReasonId]) REFERENCES [dbh].[ReasonCode]([Id]), 
     CONSTRAINT [FK_DaybyHour_QtyFailedReasonCode] FOREIGN KEY ([QtyFailedReasonId]) REFERENCES [dbh].[ReasonCode]([Id])
