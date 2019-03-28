@@ -61,6 +61,7 @@
     <Folder Include="Views" />
     <Folder Include="Tables" />
     <Folder Include="Initalize" />
+    <Folder Include="DaybyHour" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\ActualProduction.sql" />
@@ -77,6 +78,16 @@
     <Build Include="Tables\AssetTemplates.sql" />
     <Build Include="Tables\EmployeeWorkCenters.sql" />
     <Build Include="Tables\WorkCenterDxHCodes.sql" />
+    <Build Include="DaybyHour\dbh.sql" />
+    <Build Include="DaybyHour\WorkCenter.sql" />
+    <Build Include="DaybyHour\Building.sql" />
+    <Build Include="DaybyHour\ReasonCode.sql" />
+    <Build Include="DaybyHour\WorkCenterReason.sql" />
+    <Build Include="DaybyHour\DaybyHour.sql" />
+    <Build Include="DaybyHour\DaybyHourQuantity.sql" />
+    <Build Include="DaybyHour\Operation.sql" />
+    <Build Include="DaybyHour\WorkCenterGroup.sql" />
+    <Build Include="DaybyHour\WorkCenterGroupWorkCenter.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Tables\LansingIIoT.refactorlog" />

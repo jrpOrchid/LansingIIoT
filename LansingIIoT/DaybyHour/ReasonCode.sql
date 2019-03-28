@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbh].[ReasonCode]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Reason] NVARCHAR(50) NULL
+)

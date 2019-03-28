@@ -56,4 +56,25 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="template" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="9156ee77-be22-4054-9e47-e221e3c94254" ChangeDateTime="03/28/2019 00:47:30">
+    <Property Name="ElementName" Value="[dbo].[WorkCenterReason].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkCenterReason]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WorkCenterId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c84ca829-ec21-4100-b98c-4f5e4f299c79" ChangeDateTime="03/28/2019 00:53:14">
+    <Property Name="ElementName" Value="[dbh].[DaybyHour].[Hour]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbh].[DaybyHour]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HourlyQuantityGoal" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e5f5acda-c95f-4d93-a4dc-c9c040dcec9a" ChangeDateTime="03/28/2019 01:10:00">
+    <Property Name="ElementName" Value="[dbo].[WorkCenterGroupWorkCenter].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkCenterGroupWorkCenter]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WorkCenterGroupId" />
+  </Operation>
 </Operations>
