@@ -84,4 +84,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="AssetId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="67009c02-9abc-4c45-9d59-9ef3c16fe0bf" ChangeDateTime="05/10/2019 00:38:15">
+    <Property Name="ElementName" Value="[dbo].[FK_WorkCenterSetupStep_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkCenterSetupStep]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_WorkCenterSetupStep_WorkCenter]" />
+  </Operation>
 </Operations>

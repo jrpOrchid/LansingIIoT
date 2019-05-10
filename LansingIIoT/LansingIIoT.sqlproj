@@ -90,6 +90,7 @@
     <Build Include="DaybyHour\WorkCenterGroupWorkCenter.sql" />
     <Build Include="DaybyHour\Asset.sql" />
     <Build Include="DaybyHour\AssetWorkCenter.sql" />
+    <Build Include="Tables\WorkCenterSetupStep.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Tables\LansingIIoT.refactorlog" />
