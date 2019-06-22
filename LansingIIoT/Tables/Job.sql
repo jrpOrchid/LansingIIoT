@@ -12,6 +12,7 @@
     [UofMId] INT NULL, 
     [LotNumber] NVARCHAR(100) NULL, 
     [ERPId] INT NULL, 
+    [ItemDesc] NVARCHAR(500) NULL, 
     CONSTRAINT [FK_Job_Item] FOREIGN KEY ([ItemId]) REFERENCES [Item]([Id]), 
     CONSTRAINT [FK_Job_JobType] FOREIGN KEY ([JobTypeId]) REFERENCES [JobType]([Id]), 
     CONSTRAINT [FK_Job_UnitOfMeasure] FOREIGN KEY ([UofMId]) REFERENCES [UnitOfMeasure]([Id]) 

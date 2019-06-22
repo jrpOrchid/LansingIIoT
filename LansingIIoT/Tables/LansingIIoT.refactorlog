@@ -91,4 +91,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="[FK_WorkCenterSetupStep_WorkCenter]" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c0e6b44f-85af-4098-a92e-19af8cb1cca0" ChangeDateTime="05/24/2019 12:27:59">
+    <Property Name="ElementName" Value="[dbo].[WorkCenter].[LastUpdate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkCenter]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="LastUpdatedDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6b996892-7763-41be-af25-d0209eb88d9a" ChangeDateTime="06/22/2019 13:44:14">
+    <Property Name="ElementName" Value="[dbo].[WorkInstruction].[WorkInstruction]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[WorkInstruction]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
 </Operations>

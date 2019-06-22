@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbh].[WorkCenterGroup]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [GroupName] NVARCHAR(100) NULL
-)
