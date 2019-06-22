@@ -5,7 +5,9 @@
     [Description] NVARCHAR(500) NOT NULL, 
     [Planned] BIT NOT NULL DEFAULT 0, 
     [SlowCycle] BIT NOT NULL DEFAULT 0, 
-    [SystemId] INT NOT NULL DEFAULT 0
+    [SystemId] INT NOT NULL DEFAULT 0, 
+    [CategoryId] INT NULL, 
+    CONSTRAINT [FK_AvailabilityLossReason_AvailabilityLossReasonCategory] FOREIGN KEY ([CategoryId]) REFERENCES [AvailabilityLossReasonCategory]([Id])
 )
 
 GO

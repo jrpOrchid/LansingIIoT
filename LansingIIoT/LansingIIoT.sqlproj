@@ -87,6 +87,7 @@
     <Build Include="Tables\WorkInstruction.sql" />
     <Build Include="Tables\WorkInstructionAppliesTo.sql" />
     <Build Include="Tables\WorkInstructionStep.sql" />
+    <Build Include="Tables\AvailabilityLossReasonCategory.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Tables\LansingIIoT.refactorlog" />
