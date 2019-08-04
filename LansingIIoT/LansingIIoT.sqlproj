@@ -62,6 +62,7 @@
     <Folder Include="Tables" />
     <Folder Include="Initalize" />
     <Folder Include="StoredProcedures" />
+    <Folder Include="Notes" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\ActualProduction.sql" />
@@ -107,5 +108,8 @@
     <Build Include="Tables\UnitOfMeasure.sql" />
     <Build Include="Tables\WorkCenter.sql" />
     <Build Include="Tables\WorkCenterShift.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Notes\NotesOne.txt" />
   </ItemGroup>
 </Project>
